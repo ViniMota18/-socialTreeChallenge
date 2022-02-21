@@ -1,0 +1,87 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+}
+
+.instaImg {
+  border-radius: 50%;
+  height: 250px;
+  border: 3px solid #BB99DD;
+  padding: 5px;
+}
+
+
+figcaption a{
+  font-weight: 300;
+  color: #BB99DD;
+  display: flex;
+  justify-content: center;
+  text-decoration-line: none;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  all: unset;
+}
+
+.links li{
+  border: 3px solid #BB99DD;
+  width: 326px;
+  height: 49px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+  color: #BB99DD;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.links li:hover{
+  border: 3px solid gray;
+  color: gray;
+  background-color: lightgray;
+}
+
+.links a, li {
+  all: unset;
+  
+}
+
+.icons{
+  margin-top: 50px;
+}
+
+.icons li{
+  margin: 12px;
+}
+
